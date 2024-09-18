@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="BMI-containore" >
+        <h1 id="bmi-heading" >BMI CALCULATOR</h1>
+        <section class="section-1">
+
+            <!-- this is the unit section  -->
+            <div class="unit-container">               
+                <form action="#" class="unit-form">
+                    <div class="input-group">
+                    <label for="Weight">Weight</label>
+                    <input type="number" name="Weight" placeholder="In Kg." id="Weight">
+                    </div>
+
+                    <div class="input-group">
+                    <label for="Height">Height</label>
+                    <input type="number" name="Height" placeholder="In Cm." id="Height">
+                    </div>
+                </form>         
+            </div>
+
+            <!-- Caluclate Button -->
+             <button id="buttonEl" class="caluclate-btn">Caluclate</button>
+        </section>
+
+        <section>
+            <!-- this is your BMI Result section  -->
+            <div class="bmi-result-section">
+                <div class="result-left">
+                    <p>Your BMI:</p>
+                </div>
+                <div class="result-right">
+                    <p id="resultEl" class="result">--</p>
+                    <p id="resultTextEl" class="result-text">--</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

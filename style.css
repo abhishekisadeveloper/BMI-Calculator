@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.BMI-containore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#bmi-heading{
+    color: #0b4a91;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.section-1{
+    background-color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.unit-container{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.unit-form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 35rem;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: #504c4c;
+    font-weight: 600;
+}
+
+input[type=number]{
+    width: 10rem;
+    padding: 0.8rem 0rem;
+    border: none;
+    border-radius: 0.4rem ;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+/* This pseudo-element targets the inner spin button, which is the small up/down arrows that appear inside a number input field in WebKit-based browsers (like Chrome, Safari, Opera).
+ */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.caluclate-btn{
+    padding: 0.8rem 0rem;
+    width: 10rem;
+    border: none;
+    border-radius: 0.4rem ;
+    font-size: 1.2rem;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.caluclate-btn:hover{
+    background-color: #3a3a3a;
+}
+
+/* result section */
+.bmi-result-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.result-left{
+    background-color: #cfcfcf;
+    padding: 1rem 1rem;
+    color: #504c4c;
+    font-weight: 700;
+}
+
+.result-right{
+    background-color: #979797;
+    color: #ffffff;
+    padding: 0.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.result{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.result-text{
+    font-weight: 600;
+}
