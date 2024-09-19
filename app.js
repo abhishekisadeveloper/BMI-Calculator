@@ -18,6 +18,7 @@ const resultRight = document.querySelector('.result-right')
 
 btnEl.addEventListener('click', calculate);
 
+// BMI Calculator logic here.
 function calculate() {
 
     let weight = weightEl.value;
