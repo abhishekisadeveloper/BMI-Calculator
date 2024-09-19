@@ -29,7 +29,7 @@ function calculate() {
     let roundupResult = Math.floor(bmiResult * 10) / 10; // this is for at least one number after decimal (e.g. 2.4).
     resultEl.textContent = roundupResult
 
-    if(weight, height === '') {
+    if(height === '' || weight === '') {
         alert('Please Enter Valid input!')
     }
     else if (bmiResult < 18.5) {
